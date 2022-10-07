@@ -1,0 +1,15 @@
+curl --location --request POST 'localhost:8080/api/users' \
+--header 'token: abcsecuritycode' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "name": "Juan Rodriguez",
+    "email": "juan@rodriguez.org",
+    "password": "Hunter2@hg",
+    "phones": [
+        {
+            "number": "1234567",
+            "citycode": "1",
+            "contrycode": "57"
+        }
+    ]
+}'
