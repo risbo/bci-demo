@@ -20,4 +20,5 @@ public class UserInfoController {
         final Payload response = userInfoService.createUserInfo(userRequest,token);
         return ResponseEntity.ok(response);
     }
+
 }

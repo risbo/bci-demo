@@ -28,7 +28,8 @@ public class UserInfoDao {
         }
     }
 
-    public void saveUserInformation(final UserInfo userInfo){
+    public void saveUserInformation(final UserInfo userInfo) {
         userInfoRepository.save(userInfo);
     }
+
 }
